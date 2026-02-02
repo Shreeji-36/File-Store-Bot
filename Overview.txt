@@ -1,0 +1,18 @@
+telegram-file-store-bot/
+│
+├── bot.py
+├── config.py
+├── database.py
+├── requirements.txt
+├── Procfile
+│
+├── plugins/
+│   ├── start.py
+│   ├── help.py
+│   ├── batch.py
+│   ├── genlink.py
+│   ├── fsub.py
+│   ├── broadcast.py
+│   ├── settings.py
+│
+└── README.md
