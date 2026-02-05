@@ -5,7 +5,7 @@ import plugins
 app = Client(
     "FileStoreBot",
     api_id=38528447,
-    api_hash=API_HASH,
+    api_hash=a0b76b9ff89c3f30adbb2696438c6581,
     bot_token=BOT_TOKEN,
     plugins=dict(root="plugins")
 )
