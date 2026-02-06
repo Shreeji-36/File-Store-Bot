@@ -606,10 +606,10 @@ async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
 "➖➖➖➖➖➖➖➖➖\n"
 "➤ ᴡᴇ ᴀʀᴇ ʜᴇʀᴇ ᴛᴏ ᴄᴀᴛᴇʀ ᴛᴏ ʏᴏᴜʀ ᴀɴɪᴍᴇ ɴᴇᴇᴅs ᴡɪᴛʜ ᴛʜᴇ ᴜᴛᴍᴏsᴛ ᴘʀᴏғᴇssɪᴏɴᴀʟɪsᴍ ᴀɴᴅ ǫᴜᴀʟɪᴛʏ.</b></blockquote>\n\n"
 
-            "<blockquote><b>‣ ᴍᴀɪɴᴛᴀɪɴᴇᴅ ʙʏ : 
+            "<b>‣ ᴍᴀɪɴᴛᴀɪɴᴇᴅ ʙʏ : 
 ────────────────── </b>"
             "<a href='https://t.me/Prince_Vegeta_36'>𝗖𝗵𝗿𝗼𝗹𝗹𝗼</a>"
-            "</blockquote>"
+            
         ),
         reply_markup=start_keyboard(),
         parse_mode=constants.ParseMode.HTML
