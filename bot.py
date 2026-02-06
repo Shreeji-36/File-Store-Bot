@@ -969,7 +969,7 @@ async def auto_approve(update: Update, context: ContextTypes.DEFAULT_TYPE):
                     f"<blockquote><b>◈ Hᴇʏ  {user.mention_html()} ×\n"
                     "›› ʏᴏᴜ ᴍᴜsᴛ ᴊᴏɪɴ ᴀʟʟ ʀᴇǫᴜɪʀᴇᴅ ᴄʜᴀɴɴᴇʟs "
                     "ʙᴇғᴏʀᴇ ʏᴏᴜʀ ʀᴇǫᴜᴇsᴛ ɪs ᴀᴘᴘʀᴏᴠᴇᴅ.</b></blockquote>\n\n"
-                    "<blockquote><b>›› Pᴏᴡᴇʀᴇᴅ ʙʏ : @BotifyX_Pro</b></blockquote>"
+                    "<blockquote><b>››❗Fᴀᴄɪɴɢ ᴘʀᴏʙʟᴇᴍs, ᴜsᴇ: /help</b></blockquote>"
                 ),
                 reply_markup=force_sub_keyboard(),
                 parse_mode=constants.ParseMode.HTML
@@ -985,7 +985,7 @@ async def auto_approve(update: Update, context: ContextTypes.DEFAULT_TYPE):
         f"›› ʏᴏᴜʀ ʀᴇǫᴜᴇsᴛ ᴛᴏ ᴊᴏɪɴ {chat.title} "
         "ʜᴀs ʙᴇᴇɴ ᴀᴘᴘʀᴏᴠᴇᴅ.</blockquote>\n\n"
         "<blockquote>›› Pᴏᴡᴇʀᴇᴅ ʙʏ : "
-        "<a href='https://t.me/Akuma_Rei_Kami'>Akuma Rei</a></blockquote>"
+        "<a href='https://t.me/Prince_Vegeta_36'>𝗖𝗵𝗿𝗼𝗹𝗹𝗼</a></blockquote>"
     )
 
     buttons = InlineKeyboardMarkup(
