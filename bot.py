@@ -2176,7 +2176,7 @@ async def handle_callbacks(update: Update, context: ContextTypes.DEFAULT_TYPE):
             media=InputMediaPhoto(
                 media=PHOTO_ABOUT,
                 caption=(
-                    "<code>BOT INFORMATION AND STATISTICS</code>\n\n"
+                    "<code>Bᴏᴛ Iɴғᴏʀᴍᴀᴛɪᴏɴ & Sᴛᴀᴛɪsᴛɪᴄs</code>\n\n"
                     "<blockquote expandable><b>»» My Name :</b>"
                     "<a href='https://t.me/AG_Unohana_bot'>Sᴏɪғᴏɴ</a>\n"
                     "<b>»» Developer :</b> <a href='https://t.me/Prince_Vegeta_36'>𝗖𝗵𝗿𝗼𝗹𝗹𝗼 𝗟𝘂𝗰𝗶𝗹𝗳𝗲𝗿</a>\n"
