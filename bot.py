@@ -990,8 +990,8 @@ async def auto_approve(update: Update, context: ContextTypes.DEFAULT_TYPE):
 
     buttons = InlineKeyboardMarkup(
         [[
-            InlineKeyboardButton("➥ Support", url="https://t.me/BotifyX_support"),
-            InlineKeyboardButton("➥ Developer", url="https://t.me/Akuma_Rei_Kami")
+            InlineKeyboardButton("• Cʜᴀᴛ", url="https://t.me/BotifyX_support"),
+            InlineKeyboardButton("Dᴇᴠᴇʟᴏᴘᴇʀ •", url="https://t.me/Prince_Vegeta_36")
         ]]
     )
 
