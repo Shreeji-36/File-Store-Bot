@@ -871,7 +871,7 @@ async def upload_cmd(update: Update, context: ContextTypes.DEFAULT_TYPE):
         await update.message.reply_text("❌ Upload session incomplete (photo/caption missing).")
         return
 
-    bot_username = "uchiha_Sasuke_itachi_bot"
+    bot_username = "AG_Unohana_bot"
     links = {}
 
     # Create start links that deliver BD_CHANNEL forwarded messages
