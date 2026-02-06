@@ -2179,8 +2179,8 @@ async def handle_callbacks(update: Update, context: ContextTypes.DEFAULT_TYPE):
                 caption=(
                     "<code>BOT INFORMATION AND STATISTICS</code>\n\n"
                     "<blockquote expandable><b>»» My Name :</b>"
-                    "<a href='https://t.me/uchiha_Sasuke_itachi_bot'>𝑺𝒂𝒔𝒖𝒌𝒆 𝒖𝒄𝒉𝒊𝒉𝒂</a>\n"
-                    "<b>»» Developer :</b> @Akuma_Rei_Kami\n"
+                    "<a href='https://t.me/AG_Unohana_bot'>Sᴏɪғᴏɴ</a>\n"
+                    "<b>»» Developer :</b> <a href='https://t.me/Prince_Vegeta_36'>Sᴏɪғᴏɴ</a>\n"
                     "<b>»» Library :</b> <a href='https://docs.python-telegram-bot.org/'>PTB v22</a>\n"
                     "<b>»» Language :</b> <a href='https://www.python.org/'>Python 3</a>\n"
                     "<b>»» Database :</b> <a href='https://www.mongodb.com/docs/'>MongoDB</a>\n"
