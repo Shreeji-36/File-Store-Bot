@@ -223,7 +223,7 @@ def force_sub_keyboard():
     if row:
         rows.append(row)
 
-    rows.append([InlineKeyboardButton("‼️ CHECK JOIN", callback_data="check_fsub")])
+    rows.append([InlineKeyboardButton("♻️ Tʀʏ Aɢᴀɪɴ", callback_data="check_fsub")])
     return InlineKeyboardMarkup(rows)
 
 async def is_user_joined(bot, user_id):
