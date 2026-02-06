@@ -620,7 +620,7 @@ async def link_cmd(update: Update, context: ContextTypes.DEFAULT_TYPE):
 
     if not has_permission(uid):
         await update.message.reply_text(
-            "<blockquote>⛔ This command is restricted to Owner & Moderators.</blockquote>",
+            "<blockquote>⛔ Tʜɪs ᴄᴏᴍᴍᴀɴᴅ ɪs ʀᴇsᴛʀɪᴄᴛᴇᴅ ᴛᴏ Oᴡɴᴇʀ & Mᴏᴅᴇʀᴀᴛᴏʀs.</blockquote>",
             parse_mode=constants.ParseMode.HTML
         )
         return
@@ -647,7 +647,7 @@ async def linkch_cmd(update: Update, context: ContextTypes.DEFAULT_TYPE):
 
     if not has_permission(uid):
         await update.message.reply_text(
-            "<blockquote>⛔ This command is restricted to Owner & Moderators.</blockquote>",
+            "<blockquote>⛔ Tʜɪs ᴄᴏᴍᴍᴀɴᴅ ɪs ʀᴇsᴛʀɪᴄᴛᴇᴅ ᴛᴏ Oᴡɴᴇʀ & Mᴏᴅᴇʀᴀᴛᴏʀs.</blockquote>",
             parse_mode=constants.ParseMode.HTML
         )
         return
@@ -714,7 +714,7 @@ async def flink_cmd(update: Update, context: ContextTypes.DEFAULT_TYPE):
     # OWNER + MODS ONLY
     if not has_permission(uid):
         await update.message.reply_text(
-            "<blockquote>⛔ This command is restricted to Owner & Moderators.</blockquote>",
+            "<blockquote>⛔ Tʜɪs ᴄᴏᴍᴍᴀɴᴅ ɪs ʀᴇsᴛʀɪᴄᴛᴇᴅ ᴛᴏ Oᴡɴᴇʀ & Mᴏᴅᴇʀᴀᴛᴏʀs.</blockquote>",
             parse_mode=constants.ParseMode.HTML
         )
         return
@@ -738,7 +738,7 @@ async def cancelupload_cmd(update: Update, context: ContextTypes.DEFAULT_TYPE):
     # permission check (same as /setuploads)
     if not has_permission(uid):
         await update.message.reply_text(
-            "<blockquote>⛔ This command is restricted to Owner & Moderators.</blockquote>",
+            "<blockquote>⛔ Tʜɪs ᴄᴏᴍᴍᴀɴᴅ ɪs ʀᴇsᴛʀɪᴄᴛᴇᴅ ᴛᴏ Oᴡɴᴇʀ & Mᴏᴅᴇʀᴀᴛᴏʀs.</blockquote>",
             parse_mode=constants.ParseMode.HTML
         )
         return
@@ -771,7 +771,7 @@ async def genlink_cmd(update: Update, context: ContextTypes.DEFAULT_TYPE):
     # 🔒 PERMISSION CHECK
     if not has_permission(uid):
         await update.message.reply_text(
-            "<blockquote>⛔ This command is restricted to Owner & Moderators.</blockquote>",
+            "<blockquote>⛔ Tʜɪs ᴄᴏᴍᴍᴀɴᴅ ɪs ʀᴇsᴛʀɪᴄᴛᴇᴅ ᴛᴏ Oᴡɴᴇʀ & Mᴏᴅᴇʀᴀᴛᴏʀs.</blockquote>",
             parse_mode=constants.ParseMode.HTML
         )
         return
@@ -799,7 +799,7 @@ async def batch_cmd(update: Update, context: ContextTypes.DEFAULT_TYPE):
     # 🔒 PERMISSION CHECK
     if not has_permission(uid):
         await update.message.reply_text(
-            "<blockquote>⛔ This command is restricted to Owner & Moderators.</blockquote>",
+            "<blockquote>⛔ Tʜɪs ᴄᴏᴍᴍᴀɴᴅ ɪs ʀᴇsᴛʀɪᴄᴛᴇᴅ ᴛᴏ Oᴡɴᴇʀ & Mᴏᴅᴇʀᴀᴛᴏʀs.</blockquote>",
             parse_mode=constants.ParseMode.HTML
         )
         return
@@ -826,7 +826,7 @@ async def setuploads_cmd(update: Update, context: ContextTypes.DEFAULT_TYPE):
 
     if not has_permission(uid):
         await update.message.reply_text(
-            "<blockquote>⛔ This command is restricted to Owner & Moderators.</blockquote>",
+            "<blockquote>⛔ Tʜɪs ᴄᴏᴍᴍᴀɴᴅ ɪs ʀᴇsᴛʀɪᴄᴛᴇᴅ ᴛᴏ Oᴡɴᴇʀ & Mᴏᴅᴇʀᴀᴛᴏʀs.</blockquote>",
             parse_mode=constants.ParseMode.HTML
         )
         return
@@ -849,7 +849,7 @@ async def upload_cmd(update: Update, context: ContextTypes.DEFAULT_TYPE):
 
     if not has_permission(uid):
         await update.message.reply_text(
-            "<blockquote>⛔ This command is restricted to Owner & Moderators.</blockquote>",
+            "<blockquote>⛔ Tʜɪs ᴄᴏᴍᴍᴀɴᴅ ɪs ʀᴇsᴛʀɪᴄᴛᴇᴅ ᴛᴏ Oᴡɴᴇʀ & Mᴏᴅᴇʀᴀᴛᴏʀs.</blockquote>",
             parse_mode=constants.ParseMode.HTML
         )
         return
