@@ -990,7 +990,7 @@ async def auto_approve(update: Update, context: ContextTypes.DEFAULT_TYPE):
 
     buttons = InlineKeyboardMarkup(
         [[
-            InlineKeyboardButton("• Cʜᴀᴛ", url="https://t.me/BotifyX_support"),
+            InlineKeyboardButton("• Cʜᴀᴛ", url="https://t.me/AnimeChatGroup36"),
             InlineKeyboardButton("Dᴇᴠᴇʟᴏᴘᴇʀ •", url="https://t.me/Prince_Vegeta_36")
         ]]
     )
@@ -1174,7 +1174,7 @@ async def help_cmd(update: Update, context: ContextTypes.DEFAULT_TYPE):
         "• Anime post uploader system\n"
         "</blockquote>\n"
         "<blockquote expandable><b>👑 Credits</b>\n"
-        "Maintained by <b>@Akuma_Rei_Kami</b>\n\n"
+        "Maintained by <b>@Prince_Vegeta_36</b>\n\n"
         "<b>⚙️ Powered by</b>\n"
         "• Python\n"
         "• python-telegram-bot\n"
@@ -1185,12 +1185,12 @@ async def help_cmd(update: Update, context: ContextTypes.DEFAULT_TYPE):
 
     buttons = InlineKeyboardMarkup(
         [[
-            InlineKeyboardButton("➥ Support", url="https://t.me/BotifyX_support"),
-            InlineKeyboardButton("➥ Update Channel", url="https://t.me/BotifyX_Pro")
+            InlineKeyboardButton("• Oᴡɴᴇʀ", url="https://t.me/Prince_Vegeta_36"),
+            InlineKeyboardButton("Dᴇᴠᴇʟᴏᴘᴇʀ •", url="https://t.me/Prince_Vegeta_36")
         ],
         [
-            InlineKeyboardButton("➥ Developer", url="https://t.me/Akuma_Rei_Kami"),
-            InlineKeyboardButton("➥ CLOSE", callback_data="close_msg")
+            InlineKeyboardButton("• Cʜᴀᴛ Gʀᴏᴜᴘ •", url="https://t.me/AnimeChatGroup36"),
+            InlineKeyboardButton("• Cʟᴏsᴇ •", callback_data="close_msg")
         ]]
     )
 
