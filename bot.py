@@ -2220,18 +2220,18 @@ async def handle_callbacks(update: Update, context: ContextTypes.DEFAULT_TYPE):
 async def broadcast_restart(application: Application):
     RE_caption = (
         "<blockquote>"
-        "🔄 <b>Bot Restarted Successfully!\n\n"
-        "✅ New changes have been deployed.\n"
-        "🚀 Bot is now online and running smoothly.\n\n"
-        "Thank you for your patience.</b>"
+        "◈ Bᴏᴛ ʜᴀs ʙᴇᴇɴ Rᴇsᴛᴀʀᴛᴇᴅ Sᴜᴄᴄᴇssғᴜʟʟʏ ! \n"
+        "◈ Nᴇᴡ ᴄʜᴀɴɢᴇs ʜᴀᴠᴇ ʙᴇᴇɴ Dᴇᴘʟᴏʏᴇᴅ !\n"
+      
+        "◈ Tʜᴀɴᴋ~ᴜ ғᴏʀ ʏᴏᴜʀ Pᴀᴛɪᴇɴᴄᴇ 👉🏻👈🏻</b>"
         "</blockquote>"
     )
 
     buttons = InlineKeyboardMarkup(
         [
             [
-                InlineKeyboardButton("➥ Support", url="https://t.me/BotifyX_support"),
-                InlineKeyboardButton("➥ Update Channel", url="https://t.me/BotifyX_Pro")
+                InlineKeyboardButton("➥ Support", url="https://t.me/Prince_Vegeta_36"),
+                InlineKeyboardButton("➥ Update Channel", url="https://t.me/AnimeChatGroup36")
             ]
         ]
     )
