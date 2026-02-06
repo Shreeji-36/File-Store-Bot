@@ -609,7 +609,6 @@ async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
 "<b>‣ ᴍᴀɪɴᴛᴀɪɴᴇᴅ ʙʏ : 
 ──────────────────</b>"
 "<a href='https://t.me/Prince_Vegeta_36'>𝗖𝗵𝗿𝗼𝗹𝗹𝗼</a>"
-            
         ),
         reply_markup=start_keyboard(),
         parse_mode=constants.ParseMode.HTML
