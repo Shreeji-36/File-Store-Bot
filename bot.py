@@ -301,7 +301,7 @@ def start_keyboard():
         [
             [
                 InlineKeyboardButton("• Aʙᴏᴜᴛ", callback_data="about"),
-                InlineKeyboardButton("Cʜᴀᴛ •", url="https://t.me/BotifyX_Pro")
+                InlineKeyboardButton("Cʜᴀᴛ •", url="https://t.me/AnimeChatGroup36")
             ],
             [InlineKeyboardButton("• Cʟᴏsᴇ •", callback_data="close_msg")]
         ]
