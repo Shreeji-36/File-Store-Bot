@@ -1503,7 +1503,7 @@ async def private_handler(update: Update, context: ContextTypes.DEFAULT_TYPE):
                     continue
 
             # create 1 link per quality (batch delivery)
-            bot_username = "uchiha_Sasuke_itachi_bot" # replace with your bot username
+            bot_username = "AG_Unohana_bot" # replace with your bot username
             inline_parts = []
 
             created_any = False
@@ -1686,7 +1686,7 @@ async def private_handler(update: Update, context: ContextTypes.DEFAULT_TYPE):
             "type": "channel_link"
         })
 
-        link = f"https://t.me/uchiha_Sasuke_itachi_bot?start={key}"
+        link = f"https://t.me/AG_Unohana_bot?start={key}"
 
         keyboard = InlineKeyboardMarkup(
             [[InlineKeyboardButton("🔗 SHARE LINK", url=f"https://t.me/share/url?url={link}")]]
@@ -1712,7 +1712,7 @@ async def private_handler(update: Update, context: ContextTypes.DEFAULT_TYPE):
             "message_id": msg.message_id
         })
 
-        link = f"https://t.me/uchiha_Sasuke_itachi_bot?start={key}"
+        link = f"https://t.me/AG_Unohana_bot?start={key}"
 
         keyboard = InlineKeyboardMarkup(
             [[InlineKeyboardButton("🔗 Share", url=f"https://t.me/share/url?url={link}")]]
@@ -1816,7 +1816,7 @@ async def private_handler(update: Update, context: ContextTypes.DEFAULT_TYPE):
 
             del BATCH_WAIT[uid]
 
-            link = f"https://t.me/uchiha_Sasuke_itachi_bot?start={batch_key}"
+            link = f"https://t.me/AG_Unohana_bot?start={batch_key}"
 
             keyboard = InlineKeyboardMarkup(
                 [[InlineKeyboardButton("🔗 Share", url=f"https://t.me/share/url?url={link}")]]
