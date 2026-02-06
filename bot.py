@@ -33,20 +33,20 @@ import re
 # ================= CONFIG =================
 
 BOT_TOKEN = os.getenv("BOT_TOKEN", "8578998808:AAHzol7mfZuHHNMT0g3Hv6u9SjiQXwxifJY")
-PHOTO_MAIN = "AgACAgUAAxkBAAMEaYW6HqOMcMfxlPFdyxyjF_-MTWwAAtoNaxtqEylU6TswHH7T6n8ACAEAAwIAA3gABx4E"
-PHOTO_ABOUT = "AgACAgUAAxkBAAMDaWp0uJpKRswZsmZuEZLYkXXcxQgAAiUOaxvYT1hXUjYZHBeuLcUACAEAAwIAA3kABx4E"
-RESTART_PHOTO_ID = "AgACAgUAAxkBAAMHaWp00lbNjOXQqlRkgtHZ-iJYviUAAj0OaxvYT1hXWn7JTOo6tPsACAEAAwIAA3kABx4E"
-FORCE_SUB_PHOTO = "AgACAgUAAxkBAAMEaWp0vklUpOECcWYiGtg3Fn4lf2oAAicOaxvYT1hXjK-c_Ux9BhYACAEAAwIAA3kABx4E"
-FLINK_END_STICKER_ID = "CAACAgUAAxkBAAKf0Glwfn-qLR66Dx6d8PRKgVK8Sa6wAAIzJQACi_-AVX_joR3VTT64HgQ"
-HELP_PHOTO_ID = "AgACAgUAAxkBAAMDaWp0uJpKRswZsmZuEZLYkXXcxQgAAiUOaxvYT1hXUjYZHBeuLcUACAEAAwIAA3kABx4E"
+PHOTO_MAIN = "AgACAgUAAxkBAAMQaYW60-ROgrLoie4bW-QtetVapj8AAuUNaxtqEylUq-0-mg4Ve5oACAEAAwIAA3gABx4E"
+PHOTO_ABOUT = "AgACAgUAAxkBAAMEaYW6HqOMcMfxlPFdyxyjF_-MTWwAAtoNaxtqEylU6TswHH7T6n8ACAEAAwIAA3gABx4E"
+RESTART_PHOTO_ID = "AgACAgUAAxkBAAMKaYW6PejBmLfNCqR4virDeN_iQg0AAtwNaxtqEylUX-DqsHHTn1AACAEAAwIAA3gABx4E"
+FORCE_SUB_PHOTO = "AgACAgUAAxkBAAMOaYW6rjxIK_h7A-EzfmyL_wt1HOwAAt0NaxtqEylUwNO42hL1-ZUACAEAAwIAA3gABx4E"
+FLINK_END_STICKER_ID = "CAACAgUAAxkBAAEQcEpphb2gSozgOfCrun0DOp-2ZbBOggACyBUAAqJyeVTTkcusLg79qzgE"
+HELP_PHOTO_ID = "AgACAgUAAxkBAAMSaYW6-e5fULFOeuNs4GZwmnCMu9YAAuYNaxtqEylUQhBn9JeiFwkACAEAAwIAA3kABx4E"
 OWNER_ID = int(os.getenv("OWNER_ID", "7816936715"))
-LOG_CHANNEL_ID = int(os.getenv("LOG_CHANNEL_ID", "-1003548938800"))
-BD_CHANNEL_ID = int(os.getenv("BD_CHANNEL_ID", "-1002983564230"))        # Source files channel
-ANIME_CHANNEL_ID = int(os.getenv("ANIME_CHANNEL_ID", "-1002990773255"))     # Anime upload channel
+LOG_CHANNEL_ID = int(os.getenv("LOG_CHANNEL_ID", "-1003075810179"))
+BD_CHANNEL_ID = int(os.getenv("BD_CHANNEL_ID", "-1002854808772"))        # Source files channel
+ANIME_CHANNEL_ID = int(os.getenv("ANIME_CHANNEL_ID", "-1002716211901"))     # Anime upload channel
 MIN_UPLOAD_BUTTONS = 2
 MAX_UPLOAD_BUTTONS = 4
-MONGO_URI = os.getenv("MONGO_URI", "mongodb+srv://ANI_OTAKU:ANI_OTAKU@cluster0.t3frstc.mongodb.net/?appName=Cluster0")
-DB_NAME = os.getenv("DB_NAME", "ANI_OTAKU")
+MONGO_URI = os.getenv("MONGO_URI", "mongodb+srv://Galaxy_Network:Zlqz3sLOMyAaOlT5@cluster0.prfw2el.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+DB_NAME = os.getenv("DB_NAME", "𝗖𝗵𝗿𝗼𝗹𝗹𝗼 𝗟𝘂𝗰𝗶𝗹𝗳𝗲𝗿")
 
 mongo = MongoClient(MONGO_URI)
 db = mongo[DB_NAME]
