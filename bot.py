@@ -2180,7 +2180,7 @@ async def handle_callbacks(update: Update, context: ContextTypes.DEFAULT_TYPE):
                     "<code>BOT INFORMATION AND STATISTICS</code>\n\n"
                     "<blockquote expandable><b>»» My Name :</b>"
                     "<a href='https://t.me/AG_Unohana_bot'>Sᴏɪғᴏɴ</a>\n"
-                    "<b>»» Developer :</b> <a href='https://t.me/Prince_Vegeta_36'>Sᴏɪғᴏɴ</a>\n"
+                    "<b>»» Developer :</b> <a href='https://t.me/Prince_Vegeta_36'>𝗖𝗵𝗿𝗼𝗹𝗹𝗼 𝗟𝘂𝗰𝗶𝗹𝗳𝗲𝗿</a>\n"
                     "<b>»» Library :</b> <a href='https://docs.python-telegram-bot.org/'>PTB v22</a>\n"
                     "<b>»» Language :</b> <a href='https://www.python.org/'>Python 3</a>\n"
                     "<b>»» Database :</b> <a href='https://www.mongodb.com/docs/'>MongoDB</a>\n"
@@ -2199,12 +2199,16 @@ async def handle_callbacks(update: Update, context: ContextTypes.DEFAULT_TYPE):
             media=InputMediaPhoto(
                 media=PHOTO_MAIN,
                 caption=(
-                    "<blockquote>ᴡᴇʟᴄᴏᴍᴇ ᴛᴏ ᴛʜᴇ ᴀᴅᴠᴀɴᴄᴇᴅ ʟɪɴᴋs ᴀɴᴅ ғɪʟᴇ sʜᴀʀɪɴɢ ʙᴏᴛ.\n"
-                    "ᴡɪᴛʜ ᴛʜɪs ʙᴏᴛ,ʏᴏᴜ ᴄᴀɴ sʜᴀʀᴇ ʟɪɴᴋs, ғɪʟᴇ ᴀɴᴅ ᴋᴇᴇᴘ ʏᴏᴜʀ ᴄʜᴀɴɴᴇʟs\n"
-                    " sᴀғᴇ ғʀᴏᴍ ᴄᴏᴘʏʀɪɢʜᴛ ɪssᴜᴇs.</blockquote>\n\n"
-                    "<blockquote><b>➥ MAINTAINED BY :</b> "
-                    "<a href='https://t.me/Akuma_Rei_Kami'>𝘼𝙠𝙪𝙢𝙖_𝙍𝙚𝙞</a>"
-                    "</blockquote>"
+                    f"<b>◈ Hᴇʏ  {update.effective_user.mention_html()} ×</b>\n"
+"<blockquote expandable>➤ ɪ ᴀᴍ ᴘʟᴇᴀsᴇᴅ ᴛᴏ ɪɴғᴏʀᴍ ʏᴏᴜ ᴛʜᴀᴛ ɪ ᴄᴀɴ ᴘʀᴏᴠɪᴅᴇ ʏᴏᴜ ᴡɪᴛʜ ᴀɴɪᴍᴇ ғɪʟᴇs ғʀᴏᴍ ʏᴏᴜʀ ғᴀᴠᴏʀɪᴛᴇ sᴇʀɪᴇs.\n
+➖➖➖➖➖➖➖➖➖\n
+➤ ʏᴏᴜ ᴡɪʟʟ ʜᴀᴠᴇ ᴛʜᴇ ᴏᴘᴛɪᴏɴ ᴛᴏ sᴇʟᴇᴄᴛ ᴛʜᴇ ғᴏʀᴍᴀᴛ ᴏғ ʏᴏᴜʀ ᴄʜᴏɪᴄᴇ, ᴡʜᴇᴛʜᴇʀ ɪᴛ ʙᴇ 480ᴘ, 720ᴘ, 1080ᴘ, ᴏʀ ᴀɴʏ ᴏᴛʜᴇʀ ᴘʀᴇғᴇʀᴇɴᴄᴇ ʏᴏᴜ ᴍᴀʏ ʜᴀᴠᴇ.\n
+➖➖➖➖➖➖➖➖➖\n
+➤ ᴡᴇ ᴀʀᴇ ʜᴇʀᴇ ᴛᴏ ᴄᴀᴛᴇʀ ᴛᴏ ʏᴏᴜʀ ᴀɴɪᴍᴇ ɴᴇᴇᴅs ᴡɪᴛʜ ᴛʜᴇ ᴜᴛᴍᴏsᴛ ᴘʀᴏғᴇssɪᴏɴᴀʟɪsᴍ ᴀɴᴅ ǫᴜᴀʟɪᴛʏ.</blockquote>\n\n"
+            "<blockquote><b>‣ ᴍᴀɪɴᴛᴀɪɴᴇᴅ ʙʏ : 
+────────────────── </b>"
+            "<a href='https://t.me/Prince_Vegeta_36'>𝗖𝗵𝗿𝗼𝗹𝗹𝗼</a>"
+            "</blockquote>"
                 ),
                 parse_mode=constants.ParseMode.HTML
             ),
