@@ -312,7 +312,7 @@ def about_keyboard():
         [
             [
                 InlineKeyboardButton("« BACK", callback_data="back_to_start"),
-                InlineKeyboardButton("➥ CLOSE", callback_data="close_msg")
+                InlineKeyboardButton("• Cʟᴏsᴇ •", callback_data="close_msg")
             ]
         ]
     )
