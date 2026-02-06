@@ -311,7 +311,7 @@ def about_keyboard():
     return InlineKeyboardMarkup(
         [
             [
-                InlineKeyboardButton("« BACK", callback_data="back_to_start"),
+                InlineKeyboardButton("« Bᴀᴄᴋ", callback_data="back_to_start"),
                 InlineKeyboardButton("• Cʟᴏsᴇ •", callback_data="close_msg")
             ]
         ]
