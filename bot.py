@@ -2230,8 +2230,8 @@ async def broadcast_restart(application: Application):
     buttons = InlineKeyboardMarkup(
         [
             [
-                InlineKeyboardButton("➥ Support", url="https://t.me/Prince_Vegeta_36"),
-                InlineKeyboardButton("➥ Update Channel", url="https://t.me/AnimeChatGroup36")
+                InlineKeyboardButton("• Oᴡɴᴇʀ ", url="https://t.me/Prince_Vegeta_36"),
+                InlineKeyboardButton("Cʜᴀᴛ •", url="https://t.me/AnimeChatGroup36")
             ]
         ]
     )
@@ -2254,7 +2254,7 @@ async def broadcast_restart(application: Application):
 async def post_init(application: Application):
     await application.bot.send_message(
         LOG_CHANNEL_ID,
-        "<b>🤖 Bot has started successfully!</b>",
+        "<b>◈ Bᴏᴛ ʜᴀs ʙᴇᴇɴ Rᴇsᴛᴀʀᴛᴇᴅ Sᴜᴄᴄᴇssғᴜʟʟʏ !</b>",
         parse_mode=constants.ParseMode.HTML
     )
     await broadcast_restart(application)
