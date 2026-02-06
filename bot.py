@@ -606,7 +606,7 @@ async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
 "➖➖➖➖➖➖➖➖➖\n"
 "➤ ᴡᴇ ᴀʀᴇ ʜᴇʀᴇ ᴛᴏ ᴄᴀᴛᴇʀ ᴛᴏ ʏᴏᴜʀ ᴀɴɪᴍᴇ ɴᴇᴇᴅs ᴡɪᴛʜ ᴛʜᴇ ᴜᴛᴍᴏsᴛ ᴘʀᴏғᴇssɪᴏɴᴀʟɪsᴍ ᴀɴᴅ ǫᴜᴀʟɪᴛʏ.</b></blockquote>\n\n"
 
-            "<b>‣ ᴍᴀɪɴᴛᴀɪɴᴇᴅ ʙʏ : 
+            f"<b>‣ ᴍᴀɪɴᴛᴀɪɴᴇᴅ ʙʏ : 
 ────────────────── </b>"
             "<a href='https://t.me/Prince_Vegeta_36'>𝗖𝗵𝗿𝗼𝗹𝗹𝗼</a>"
             
