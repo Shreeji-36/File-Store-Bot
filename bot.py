@@ -605,9 +605,10 @@ async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
 "➤ ʏᴏᴜ ᴡɪʟʟ ʜᴀᴠᴇ ᴛʜᴇ ᴏᴘᴛɪᴏɴ ᴛᴏ sᴇʟᴇᴄᴛ ᴛʜᴇ ғᴏʀᴍᴀᴛ ᴏғ ʏᴏᴜʀ ᴄʜᴏɪᴄᴇ, ᴡʜᴇᴛʜᴇʀ ɪᴛ ʙᴇ 480ᴘ, 720ᴘ, 1080ᴘ, ᴏʀ ᴀɴʏ ᴏᴛʜᴇʀ ᴘʀᴇғᴇʀᴇɴᴄᴇ ʏᴏᴜ ᴍᴀʏ ʜᴀᴠᴇ.\n"
 "➖➖➖➖➖➖➖➖➖\n"
 "➤ ᴡᴇ ᴀʀᴇ ʜᴇʀᴇ ᴛᴏ ᴄᴀᴛᴇʀ ᴛᴏ ʏᴏᴜʀ ᴀɴɪᴍᴇ ɴᴇᴇᴅs ᴡɪᴛʜ ᴛʜᴇ ᴜᴛᴍᴏsᴛ ᴘʀᴏғᴇssɪᴏɴᴀʟɪsᴍ ᴀɴᴅ ǫᴜᴀʟɪᴛʏ.</b></blockquote>\n\n"
-               f"<b>‣ ᴍᴀɪɴᴛᴀɪɴᴇᴅ ʙʏ : 
+
+"<b>‣ ᴍᴀɪɴᴛᴀɪɴᴇᴅ ʙʏ : 
 ──────────────────</b>"
-            "<a href='https://t.me/Prince_Vegeta_36'>𝗖𝗵𝗿𝗼𝗹𝗹𝗼</a>"
+"<a href='https://t.me/Prince_Vegeta_36'>𝗖𝗵𝗿𝗼𝗹𝗹𝗼</a>"
             
         ),
         reply_markup=start_keyboard(),
