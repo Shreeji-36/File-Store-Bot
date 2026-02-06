@@ -300,10 +300,10 @@ def start_keyboard():
     return InlineKeyboardMarkup(
         [
             [
-                InlineKeyboardButton("➥ 𝐀𝐁𝐎𝐔𝐓", callback_data="about"),
-                InlineKeyboardButton("➥ 𝐍𝐄𝐓𝐖𝐎𝐑𝐊", url="https://t.me/BotifyX_Pro")
+                InlineKeyboardButton("• Aʙᴏᴜᴛ", callback_data="about"),
+                InlineKeyboardButton("Cʜᴀᴛ •", url="https://t.me/BotifyX_Pro")
             ],
-            [InlineKeyboardButton("➥ 𝗖𝗟𝗢𝗦𝗘", callback_data="close_msg")]
+            [InlineKeyboardButton("• Cʟᴏsᴇ •", callback_data="close_msg")]
         ]
     )
 
