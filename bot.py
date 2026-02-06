@@ -105,7 +105,7 @@ async def send_log(bot, user, action: str):
 
     text = (
         "<b>📌 BOT ACTIVITY LOG</b>\n\n"
-        f"🤖 bot : 𝑺𝒂𝒔𝒖𝒌𝒆 𝒖𝒄𝒉𝒊𝒉𝒂\n"
+        f"🤖 bot : Sᴏɪғᴏɴ\n"
         f"👤 User : {username}\n"
         f"🆔 User ID : <code>{user.id}</code>\n"
         f"⚙️ Action : <b>{action}</b>\n"
