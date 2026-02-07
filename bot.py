@@ -1143,22 +1143,16 @@ async def help_cmd(update: Update, context: ContextTypes.DEFAULT_TYPE):
         "<code>🤖 BOT COMMANDS GUIDE</code>\n\n"
 f"<b>◈ Hᴇʏ  {update.effective_user.mention_html()} ×</b>\n"        
 "<blockquote expandable>"
-        "➪ I ᴀᴍ ᴀ ᴘʀɪᴠᴀᴛᴇ ғɪʟᴇ sʜᴀʀɪɴɢ ʙᴏᴛ, ᴍᴇᴀɴᴛ ᴛᴏ ᴘʀᴏᴠɪᴅᴇ ғɪʟᴇs ᴀɴᴅ ɴᴇᴄᴇssᴀʀʏ sᴛᴜғғ ᴛʜʀᴏᴜɢʜ sᴘᴇᴄɪᴀʟ ʟɪɴᴋ ғᴏʀ sᴘᴇᴄɪғɪᴄ ᴄʜᴀɴɴᴇʟs."
-
-"➪ Iɴ ᴏʀᴅᴇʀ ᴛᴏ ɢᴇᴛ ᴛʜᴇ ғɪʟᴇs ʏᴏᴜ ʜᴀᴠᴇ ᴛᴏ ᴊᴏɪɴ ᴛʜᴇ ᴀʟʟ ᴍᴇɴᴛɪᴏɴᴇᴅ ᴄʜᴀɴɴᴇʟ ᴛʜᴀᴛ ɪ ᴘʀᴏᴠɪᴅᴇ ʏᴏᴜ ᴛᴏ ᴊᴏɪɴ. Yᴏᴜ ᴄᴀɴ ɴᴏᴛ ᴀᴄᴄᴇss ᴏʀ ɢᴇᴛ ᴛʜᴇ ғɪʟᴇs ᴜɴʟᴇss ʏᴏᴜ ᴊᴏɪɴᴇᴅ ᴀʟʟ ᴄʜᴀɴɴᴇʟs."
-
-"➪ Sᴏ ᴊᴏɪɴ Mᴇɴᴛɪᴏɴᴇᴅ Cʜᴀɴɴᴇʟs ᴛᴏ ɢᴇᴛ Fɪʟᴇs ᴏʀ ɪɴɪᴛɪᴀᴛᴇ ᴍᴇssᴀɢᴇs..."
-
+        "➪ I ᴀᴍ ᴀ ᴘʀɪᴠᴀᴛᴇ ғɪʟᴇ sʜᴀʀɪɴɢ ʙᴏᴛ, ᴍᴇᴀɴᴛ ᴛᴏ ᴘʀᴏᴠɪᴅᴇ ғɪʟᴇs ᴀɴᴅ ɴᴇᴄᴇssᴀʀʏ sᴛᴜғғ ᴛʜʀᴏᴜɢʜ sᴘᴇᴄɪᴀʟ ʟɪɴᴋ ғᴏʀ sᴘᴇᴄɪғɪᴄ ᴄʜᴀɴɴᴇʟs.\n"
+"➖➖➖➖➖➖➖➖➖\n"
+"➪ Iɴ ᴏʀᴅᴇʀ ᴛᴏ ɢᴇᴛ ᴛʜᴇ ғɪʟᴇs ʏᴏᴜ ʜᴀᴠᴇ ᴛᴏ ᴊᴏɪɴ ᴛʜᴇ ᴀʟʟ ᴍᴇɴᴛɪᴏɴᴇᴅ ᴄʜᴀɴɴᴇʟ ᴛʜᴀᴛ ɪ ᴘʀᴏᴠɪᴅᴇ ʏᴏᴜ ᴛᴏ ᴊᴏɪɴ. Yᴏᴜ ᴄᴀɴ ɴᴏᴛ ᴀᴄᴄᴇss ᴏʀ ɢᴇᴛ ᴛʜᴇ ғɪʟᴇs ᴜɴʟᴇss ʏᴏᴜ ᴊᴏɪɴᴇᴅ ᴀʟʟ ᴄʜᴀɴɴᴇʟs.\n"
+"➖➖➖➖➖➖➖➖➖\n"
+"➪ Sᴏ ᴊᴏɪɴ Mᴇɴᴛɪᴏɴᴇᴅ Cʜᴀɴɴᴇʟs ᴛᴏ ɢᴇᴛ Fɪʟᴇs ᴏʀ ɪɴɪᴛɪᴀᴛᴇ ᴍᴇssᴀɢᴇs...\n"
+"➖➖➖➖➖➖➖➖➖\n"
 "‣ /help - Oᴘᴇɴ ᴛʜɪs ʜᴇʟᴘ ᴍᴇssᴀɢᴇ !\n"
         "</blockquote>\n"
-        "<blockquote expandable><b>👑 Credits</b>\n"
-        "Maintained by <b>@Prince_Vegeta_36</b>\n\n"
-        "<b>⚙️ Powered by</b>\n"
-        "• Python\n"
-        "• python-telegram-bot\n"
-        "• MongoDB\n"
-        "• Render Hosting"
-        "</blockquote>"
+        "<b>◈ Sᴛɪʟʟ ʜᴀᴠᴇ ᴅᴏᴜʙᴛs, ᴄᴏɴᴛᴀᴄᴛ ʙᴇʟᴏᴡ ᴘᴇʀsᴏɴs/ɢʀᴏᴜᴘ ᴀs ᴘᴇʀ ʏᴏᴜʀ ɴᴇᴇᴅ !"
+        
     )
 
     buttons = InlineKeyboardMarkup(
@@ -1167,8 +1161,8 @@ f"<b>◈ Hᴇʏ  {update.effective_user.mention_html()} ×</b>\n"
             InlineKeyboardButton("Dᴇᴠᴇʟᴏᴘᴇʀ •", url="https://t.me/Prince_Vegeta_36")
         ],
         [
-            InlineKeyboardButton("• Cʜᴀᴛ Gʀᴏᴜᴘ •", url="https://t.me/AnimeChatGroup36"),
-            InlineKeyboardButton("• Cʟᴏsᴇ •", callback_data="close_msg")
+            InlineKeyboardButton("• Cʜᴀᴛ Gʀᴏᴜᴘ ", url="https://t.me/AnimeChatGroup36"),
+            InlineKeyboardButton("Cʟᴏsᴇ •", callback_data="close_msg")
         ]]
     )
 
