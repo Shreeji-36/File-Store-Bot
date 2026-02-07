@@ -997,7 +997,7 @@ async def auto_approve(update: Update, context: ContextTypes.DEFAULT_TYPE):
     try:
         await context.bot.send_photo(
             chat_id=user.id,
-            photo="AgACAgUAAxkBAAMFaWp0x9vbbLjl_GIvuDJ6HBfKgEEAAioOaxvYT1hXmUKoXdIUY0kACAEAAwIAA3kABx4E",
+            photo="https://i.ibb.co/JFcTzRyY/x.jpg",
             caption=approval_caption,
             reply_markup=buttons,
             parse_mode=constants.ParseMode.HTML
