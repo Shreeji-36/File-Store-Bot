@@ -35,7 +35,7 @@ import re
 BOT_TOKEN = os.getenv("BOT_TOKEN", "8578998808:AAHzol7mfZuHHNMT0g3Hv6u9SjiQXwxifJY")
 PHOTO_MAIN = "https://i.ibb.co/TMzM8QP0/x.jpg"
 PHOTO_ABOUT = "https://i.ibb.co/Sw7jdmSB/x.jpg"
-RESTART_PHOTO_ID = "AgACAgUAAxkBAAMKaYW6PejBmLfNCqR4virDeN_iQg0AAtwNaxtqEylUX-DqsHHTn1AACAEAAwIAA3gABx4E"
+RESTART_PHOTO_ID = "https://i.ibb.co/B8bnMLr/x.jpg"
 FORCE_SUB_PHOTO = "https://i.ibb.co/wFB83dXW/x.jpg"
 FLINK_END_STICKER_ID = "CAACAgUAAxkBAAEQcEpphb2gSozgOfCrun0DOp-2ZbBOggACyBUAAqJyeVTTkcusLg79qzgE"
 HELP_PHOTO_ID = "AgACAgUAAxkBAAMEaYW6HqOMcMfxlPFdyxyjF_-MTWwAAtoNaxtqEylU6TswHH7T6n8ACAEAAwIAA3gABx4E"
