@@ -46,7 +46,7 @@ ANIME_CHANNEL_ID = int(os.getenv("ANIME_CHANNEL_ID", "-1002716211901"))     # An
 MIN_UPLOAD_BUTTONS = 2
 MAX_UPLOAD_BUTTONS = 4
 MONGO_URI = os.getenv("MONGO_URI", "mongodb+srv://Galaxy_Network:Zlqz3sLOMyAaOlT5@cluster0.prfw2el.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
-DB_NAME = os.getenv("DB_NAME", "AG_Unohana_bot")
+DB_NAME = os.getenv("DB_NAME", " 𝗖𝗵𝗿𝗼𝗹𝗹𝗼")
 
 mongo = MongoClient(MONGO_URI)
 db = mongo[DB_NAME]
