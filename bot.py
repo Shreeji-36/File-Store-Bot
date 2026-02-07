@@ -1140,7 +1140,7 @@ async def help_cmd(update: Update, context: ContextTypes.DEFAULT_TYPE):
         return
 
     help_text = (
-        "<code>🤖 BOT COMMANDS GUIDE</code>\n\n"
+        "<code>𝗛𝗲𝗹𝗽 𝗦𝗲𝗰𝘁𝗼𝗿</code>\n\n"
 f"<b>◈ Hᴇʏ  {update.effective_user.mention_html()} ×</b>\n"        
 "<blockquote expandable>"
         "➪ I ᴀᴍ ᴀ ᴘʀɪᴠᴀᴛᴇ ғɪʟᴇ sʜᴀʀɪɴɢ ʙᴏᴛ, ᴍᴇᴀɴᴛ ᴛᴏ ᴘʀᴏᴠɪᴅᴇ ғɪʟᴇs ᴀɴᴅ ɴᴇᴄᴇssᴀʀʏ sᴛᴜғғ ᴛʜʀᴏᴜɢʜ sᴘᴇᴄɪᴀʟ ʟɪɴᴋ ғᴏʀ sᴘᴇᴄɪғɪᴄ ᴄʜᴀɴɴᴇʟs.\n"
