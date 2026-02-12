@@ -14,7 +14,7 @@ SHORT_TUT = "https://t.me/How_to_Download_7x/26"
 
 # Bot Configuration
 SESSION = "𝗖𝗵𝗿𝗼𝗹𝗹𝗼"
-TOKEN = "8578998808:AAHzol7mfZuHHNMT0g3Hv6u9SjiQXwxifJY"
+TOKEN = "8485721537:AAGLfMQWt3OgPAXYqUXrYY4hfHa-cqULwjk"
 API_ID = "38528447"
 API_HASH = "a0b76b9ff89c3f30adbb2696438c6581"
 WORKERS = 1
