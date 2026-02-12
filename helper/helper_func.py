@@ -304,7 +304,7 @@ def force_sub(func):
     async def wrapper(client: Client, message: Message):
         if not client.fsub_dict:
             return await func(client, message)
-        photo = client.messages.get('FSUB_PHOTO', 'https://i.ibb.co/qL4qXCB3/x.jpg')
+        photo = client.messages.get('FSUB_PHOTO', 'https://i.ibb.co/PsNgVR44/x.jpg')
         if photo:
             msg = await message.reply_photo(
                 caption="<b>Cʜᴇᴄᴋɪɴɢ Sᴜʙsᴄʀɪᴘᴛɪᴏɴ...</b>", 
