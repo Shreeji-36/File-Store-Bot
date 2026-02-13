@@ -443,4 +443,60 @@ async def auto_del_notification(bot_username, msg, delay_time, transfer):
             await temp.edit_text(f"<b>Pʀᴇᴠɪᴏᴜs Mᴇssᴀɢᴇ ᴡᴀs Dᴇʟᴇᴛᴇᴅ </b>")
 
     except Exception as e:
-        print(f"Error occured while ed
+                print(f"Error occured while editing the Delete message: {e}")
+        await temp.edit_text(f"<b>Pʀᴇᴠɪᴏᴜs Mᴇssᴀɢᴇ ᴡᴀs Dᴇʟᴇᴛᴇᴅ </b>")
+
+    try: await msg.delete()
+    except Exception as e: print(f"Error occurred on auto_del_notification() : {e}")
+
+#Function for deleteing files/Messages.....
+async def delete_message(msg, delay_time): 
+    await asyncio.sleep(delay_time)
+
+    try: await msg.delete()
+    except Exception as e: print(f"Error occurred on delete_message() : {e}")
+
+#===============================================================#
+
+#Function for batch auto delete - sends one notification for all files
+async def batch_auto_del_notification(bot_username, messages, delay_time, transfer_link, chat_id, client):
+    """Send one notification for batch of files and delete all after timer"""
+    if not messages:
+        return
+
+    # Send single countdown notification
+    notification_msg = await client.send_message(
+        chat_id=chat_id,
+        text=DEL_MSG.format(username=bot_username, time=convert_time(delay_time)),
+        disable_web_page_preview=True
+    )
+
+    await asyncio.sleep(delay_time)
+
+    # Delete all file messages
+    for msg in messages:
+        try:
+            await msg.delete()
+        except Exception as e:
+            print(f"Error deleting message {getattr(msg, 'id', 'Unknown')}: {e}")
+
+    # Update notification with get files button
+    try:
+        if transfer_link:
+            try:
+                name = "• ɢᴇᴛ ғɪʟᴇs •"
+                link = f"https://t.me/{bot_username}?start={transfer_link}"
+                button = [[InlineKeyboardButton(text=name, url=link), InlineKeyboardButton(text="ᴄʟᴏsᴇ •", callback_data="close")]]
+
+                await notification_msg.edit_text(
+                    text=f"<b>›› Pʀᴇᴠɪᴏᴜs Mᴇssᴀɢᴇ ᴡᴀs Dᴇʟᴇᴛᴇᴅ\n\nIғ ʏᴏᴜ ᴡᴀɴᴛ ᴛᴏ ɢᴇᴛ ᴛʜᴇ ғɪʟᴇs ᴀɢᴀɪɴ, ᴛʜᴇɴ ᴄʟɪᴄᴋ: <a href={link}>{name}</a> ʙᴜᴛᴛᴏɴ ʙᴇʟᴏᴡ ᴇʟsᴇ ᴄʟᴏsᴇ ᴛʜɪs ᴍᴇssᴀɢᴇ.</b>",
+                    reply_markup=InlineKeyboardMarkup(button),
+                    disable_web_page_preview=True
+                )
+            except Exception as e:
+                await notification_msg.edit_text(f"<b>›› Pʀᴇᴠɪᴏᴜs Mᴇssᴀɢᴇ ᴡᴀs Dᴇʟᴇᴛᴇᴅ</b>")
+                print(f"Error editing notification message: {e}")
+        else:
+            await notification_msg.edit_text(f"<b>Pʀᴇᴠɪᴏᴜs Mᴇssᴀɢᴇ ᴡᴀs Dᴇʟᴇᴛᴇᴅ</b>")
+    except Exception as e:
+        print(f"Error updating notification message: {e}")
