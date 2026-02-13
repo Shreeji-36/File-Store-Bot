@@ -304,7 +304,7 @@ def force_sub(func):
     async def wrapper(client: Client, message: Message):
         if not client.fsub_dict:
             return await func(client, message)
-        photo = client.messages.get('FSUB_PHOTO', 'https://i.ibb.co/PsNgVR44/x.jpg')
+        photo = client.messages.get('FSUB_PHOTO', 'https://i.ibb.co/qL4qXCB3/x.jpg')
         if photo:
             msg = await message.reply_photo(
                 caption="<b>Cʜᴇᴄᴋɪɴɢ Sᴜʙsᴄʀɪᴘᴛɪᴏɴ...</b>", 
@@ -443,7 +443,7 @@ async def auto_del_notification(bot_username, msg, delay_time, transfer):
             await temp.edit_text(f"<b>Pʀᴇᴠɪᴏᴜs Mᴇssᴀɢᴇ ᴡᴀs Dᴇʟᴇᴛᴇᴅ </b>")
 
     except Exception as e:
-                print(f"Error occured while editing the Delete message: {e}")
+        print(f"Error occured while editing the Delete message: {e}")
         await temp.edit_text(f"<b>Pʀᴇᴠɪᴏᴜs Mᴇssᴀɢᴇ ᴡᴀs Dᴇʟᴇᴛᴇᴅ </b>")
 
     try: await msg.delete()
